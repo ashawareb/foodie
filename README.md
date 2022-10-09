@@ -22,8 +22,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In your terminal you can run
+```
+$ foodie portray food_name
+```
+and it should tells you if that food is gross or delicious
 
+```
+$ foodie pluralize --word word
+```
+to pluralize that word
+
+```
+$ foodie recipe dinner food_name
+```
+to generate the recipe for that food
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
